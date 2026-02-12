@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+* {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+div.videoh {
+    position: relative;
+    margin: 20px;
+    padding: 10px;
+    padding-bottom: 60%;
+}
+
+iframe {
+    position: absolute;
+    right: 1%;
+    width: 98%;
+    height: 80%;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
+
+a:hover {
+    color: rgb(58, 58, 192);
+}
+
+img.voltar {
+    display: block;
+    margin: auto;
+    padding-top: 10px;
+}
